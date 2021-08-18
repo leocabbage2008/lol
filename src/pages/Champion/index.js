@@ -19,6 +19,7 @@ export default function ChampionPage() {
       setChampData(data.data.data[champName]);
     };
     if (champName) fetchData();
+    console.log(champName);
   }, [champName]);
   return (
     <div>
