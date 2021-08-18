@@ -20,7 +20,6 @@ export default function ChampionPage() {
     };
     if (champName) fetchData();
   }, [champName]);
-  useEffect(()=>console.log(champName);,[champName]);
   return (
     <div>
       <h1>{champData.name}</h1>
