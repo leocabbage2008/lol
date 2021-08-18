@@ -15,13 +15,13 @@ body {
   grid-gap: 15px;
 }
 
-@media screen and (max-width:640px){
-  .cardCont{
-    grid-template-columns:1fr;
+@media screen and (max-width:768px){
+  #cardCont{
+    grid-template-columns:repeat(1,1fr);
   }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:946px){
   .cardCont{
     grid-template-columns:repeat(3,1fr);
   }
