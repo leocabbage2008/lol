@@ -17,11 +17,6 @@ export default function ChampionPage() {
   useEffect(() => {
     const fetchData = async () => {
       const data = await championServices.fetchChampionByName(champName);
-      const data0 = await axios.get(
-    `https:/ddragon.leagueoflegends.com/cdn/10.4.1/data/en_US/champion/${champName}.json`
-  ).then(response=>console.log(response));
-      console.log(data.data);
-      console.log(data0);
       setChampData(data.data.data[champName]);
     };
     if (champName) fetchData();
