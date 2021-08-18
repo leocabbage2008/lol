@@ -15,6 +15,17 @@ body {
   grid-gap: 15px;
 }
 
+@media screen and (max-width:640px){
+  .cardCont{
+    grid-template-columns:1fr;
+  }
+}
+
+@media screen and (max-width:768px){
+  .cardCOnt{
+    grid-template-columns:repeat(3,1fr);
+  }
+}
 .card img {
   width: 100%;
   height: auto;
