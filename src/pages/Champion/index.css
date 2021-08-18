@@ -33,7 +33,7 @@
   grid-gap: 10px;
   background-color: rgba(0, 0, 0, 0.1);
 }
-@media screen and (max-width:768px){
+@media screen and (min-width:768px){
   .skins{
     grid-template-columns:repeat(1,1fr);
   }
