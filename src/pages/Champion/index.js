@@ -50,7 +50,7 @@ export default function ChampionPage() {
             })}
       </ul>
       <h1>Skins:</h1>
-      <div className="skins">
+      <div className="skins" id="skins">
         {champData.skins &&
           champData.skins.map((skin) => {
             return (
