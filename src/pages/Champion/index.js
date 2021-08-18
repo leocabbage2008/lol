@@ -16,7 +16,7 @@ export default function ChampionPage() {
   useEffect(() => {
     const fetchData = async () => {
       const data = await championServices.fetchChampionByName(champName);
-      console.log(data.data.data);
+      console.log(data.data);
       setChampData(data.data.data[champName]);
     };
     if (champName) fetchData();
