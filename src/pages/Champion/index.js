@@ -18,7 +18,7 @@ export default function ChampionPage() {
     const fetchData = async () => {
       const data = await championServices.fetchChampionByName(champName);
       const data0 = await axios.get(
-    `https:/ddragon.leagueoflegends.com/cdn/10.4.1/data/en_US/champion/${name}.json`
+    `https:/ddragon.leagueoflegends.com/cdn/10.4.1/data/en_US/champion/${champName}.json`
   );
       console.log(data.data);
       console.log(data0.data);
