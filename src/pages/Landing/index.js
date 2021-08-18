@@ -38,7 +38,7 @@ class LandingPage extends React.Component {
     return (
       <div className="App">
         <h1>League of Legends</h1>
-        <div className="cardCont">
+        <div className="cardCont" id="cardCont">
           {this.state.champions && Object.entries(this.state.champions).map((v, i) => {
             return (
               <Champion
