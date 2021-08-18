@@ -20,8 +20,8 @@ export default function ChampionPage() {
     };
     if (champName) fetchData();
     console.log(champName);
-    console.log(champData);
   }, [champName]);
+  useEffect(()=>console.log(champData),[champData]);
   return (
     <div>
       <h1>{champData.name}</h1>
