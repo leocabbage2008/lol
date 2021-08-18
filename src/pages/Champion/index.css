@@ -33,13 +33,13 @@
   grid-gap: 10px;
   background-color: rgba(0, 0, 0, 0.1);
 }
-@media screen and (max-width:640px){
+@media screen and (max-width:768px){
   .skins{
     grid-template-columns:repeat(1,1fr);
   }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:946px){
   .skins{
     grid-template-columns:repeat(3,1fr);
   }
