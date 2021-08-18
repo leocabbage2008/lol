@@ -26,9 +26,7 @@ export default function Popup({ display, header, img, closeHandler }) {
           <h1 className="header">{header}</h1>
         </div>
         <img src={img} alt={header} />
-        <a href={`https://complexitylol.netlify.app/champion/${header}`}>
-          More Details
-        </a>
+        <a href={`/champion/${header}`}>More Details</a>
       </div>
       <div className={classnames("underlay", { show: display })}></div>
     </>
