@@ -3,7 +3,7 @@ import axios from "axios";
 const fetchAllChampions = () => {
   return axios
     .get(
-      "https:/ddragon.leagueoflegends.com/cdn/10.4.1/data/en_US/champion.json"
+      "https://ddragon.leagueoflegends.com/cdn/10.4.1/data/en_US/champion.json"
     )
     .then((response) => {
       return response.data.data;
