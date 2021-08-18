@@ -21,7 +21,7 @@ export default function ChampionPage() {
     `https:/ddragon.leagueoflegends.com/cdn/10.4.1/data/en_US/champion/${champName}.json`
   );
       console.log(data.data);
-      console.log(data0.data);
+      console.log(data0);
       setChampData(data.data.data[champName]);
     };
     if (champName) fetchData();
