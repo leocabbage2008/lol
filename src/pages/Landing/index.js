@@ -35,7 +35,6 @@ class LandingPage extends React.Component {
     this.setState(state);
   };
   render() {
-    console.log(this.state.champions);
     return (
       <div className="App">
         <h1>League of Legends</h1>
