@@ -12,7 +12,7 @@ const fetchAllChampions = () => {
 
 const fetchChampionByName = (name) => {
   return axios.get(
-    `https:/ddragon.leagueoflegends.com/cdn/10.4.1/data/en_US/champion/${name}.json`
+    `https://ddragon.leagueoflegends.com/cdn/10.4.1/data/en_US/champion/${name}.json`
   );
 };
 
