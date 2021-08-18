@@ -3,6 +3,7 @@ import championServices from "../../services/champions";
 import skinImgUrl from "../../constants/skinImgUrl";
 import "./index.css";
 import classnames from "classnames";
+import axios from "axios";
 
 export default function ChampionPage() {
   const [champName, setChampName] = React.useState("");
