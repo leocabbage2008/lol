@@ -1,0 +1,38 @@
+.info {
+  list-style-image: url("https://gist.githubusercontent.com/leocabbage2008/6c5c169ad2f03b3683ca8968ee8a692f/raw/81a18764be71207a8305f26a2a309ce6d6bdb7b6/arrow.svg");
+  display: none;
+}
+.show {
+  display: block;
+}
+.stats {
+  width: 90px;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+.stats:hover {
+  cursor: pointer;
+}
+.down {
+  background: url("https://gist.githubusercontent.com/leocabbage2008/fe9d4837f7a9f3e21c76b596db2bc1ba/raw/2fa2d030c9e2611be77d2bf8b4a27df5fd6abeb2/chevron-right.svg");
+}
+.right {
+  background: url("https://gist.githubusercontent.com/leocabbage2008/9a91c72287c800b43f093a10eb9b0ca1/raw/62d75bf45431293a1c79131dc252971a4429ccbd/chevron-down.svg");
+}
+.arrow {
+  display: block;
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-right: 5px;
+}
+.skins {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.skins img {
+  width: 100%;
+}

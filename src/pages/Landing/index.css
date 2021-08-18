@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(230, 230, 230);
+  margin: 10px;
+}
+
+.header {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.cardCont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  grid-gap: 15px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  transition: all 0.4s ease;
+  border: 2px solid #eee;
+  padding: 12px;
+}
+
+.card:hover {
+  background-color: rgba(126, 249, 255, 0.5);
+  border: 2px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.popup {
+  background-color: rgb(230, 230, 230);
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 10px;
+  display: none;
+  z-index: 2;
+  border: 2px solid black;
+  padding-bottom: 0px;
+}
+
+.popup img {
+  display: block;
+  max-width: 90%;
+  max-height: auto;
+}
+
+.underlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(229, 231, 235, 0.5);
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.closeCont {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.close {
+  height: 24px;
+  width: 24px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.close:hover {
+  transform: rotate(180deg);
+}
